@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: rgba(42, 48, 53, 0.9);
+}
+
 #q4Wrapper {
   background-color: #2A3035;
   font-family: "Roboto", sans-serif;
@@ -56,9 +60,15 @@
 .layout_header {
   margin-bottom: 30px;
   text-align: center;
+  padding: 0.5rem;
+  color: #FFF;
+  background: rgba(42, 48, 53, 1);
 }
 
 /* Begin styling the report items here! */
 .reports {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
 }
