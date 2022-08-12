@@ -72,3 +72,16 @@ body {
   gap: 30px;
   justify-items: center;
 }
+
+.reports_docs {
+  margin-top: 0.5rem;
+  padding: 0.1rem;
+  background: rgba(42, 48, 53, 1);
+  text-align: center;
+}
+
+.reports_title a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1rem;
+}
