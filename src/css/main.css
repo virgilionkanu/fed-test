@@ -85,3 +85,15 @@ body {
   text-decoration: none;
   font-size: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .reports {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .reports {
+    grid-template-columns: 1fr;
+  }
+}
